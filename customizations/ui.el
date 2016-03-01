@@ -26,10 +26,14 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-bright t)
+;;(load-theme 'tomorrow-night-bright t)
+(load-theme 'tango-dark t)
+(custom-set-variables
+ '(coffee-tab-width 2)
+ '(hl-line ((t (:background "#4a4a4a")))))
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 140)
+;;(set-face-attribute 'default nil :height 140)
 
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
@@ -67,3 +71,6 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; remove toolbar
+(tool-bar-mode 0)
