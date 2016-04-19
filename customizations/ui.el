@@ -26,8 +26,8 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-;;(load-theme 'tomorrow-night-bright t)
-(load-theme 'tango-dark t)
+(load-theme 'tomorrow-night-bright t)
+;;(load-theme 'tango-dark t)
 (custom-set-variables
  '(coffee-tab-width 2)
  '(hl-line ((t (:background "#4a4a4a")))))
