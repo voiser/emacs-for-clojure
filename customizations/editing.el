@@ -70,3 +70,5 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+(add-hook 'prog-mode-hook 'electric-pair-mode)
